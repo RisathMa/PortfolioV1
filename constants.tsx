@@ -50,8 +50,8 @@ export const PROJECTS: Project[] = [
     description: "A comprehensive analysis of deployment workflows. This project demonstrates mastery over local run environments and cloud configurations, specifically optimizing settings for Render and Vercel deployments.",
     tags: ["DevOps", "Cloud", "Deployment", "GitHub"],
     category: "System",
-    links: { github: "https://github.com/RisathMa/Nexa" },
-    image: "https://images.unsplash.com/photo-1667372393119-c81c0cda0a29?q=80&w=1000&auto=format&fit=crop"
+    links: {},
+    image: "https://i.ibb.co/Xrm2kYX6/Screenshot-2025-12-11-165300.png"
   },
   {
     id: "company-rm",
@@ -60,7 +60,7 @@ export const PROJECTS: Project[] = [
     tags: ["React", "UI/UX", "Branding", "Frontend"],
     category: "Web",
     links: { demo: "https://www.companyrm.lk" },
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop"
+    image: "https://i.ibb.co/KcJ2PjFp/Screenshot-2025-12-11-165419.png"
   },
   {
     id: "auth-system",
@@ -69,26 +69,18 @@ export const PROJECTS: Project[] = [
     tags: ["Firebase", "Security", "HTML Emails", "Auth"],
     category: "System",
     links: {},
-    image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=1000&auto=format&fit=crop"
+    image: "https://i.ibb.co/fVt19nLM/Screenshot-2025-12-11-165743.png"
   },
   {
     id: "flutter-onesignal",
-    title: "Mobile Notification App",
+    title: "School Mobile App",
     description: "A Flutter application integrated with OneSignal for push notifications. Involved deep debugging of Android notification channels and solving popup issues on various devices.",
-    tags: ["Flutter", "Mobile", "OneSignal", "Android"],
+    tags: ["Flutter", "Mobile", "OneSignal", "Android" , "IOS"],
     category: "Mobile",
     links: {},
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=1000&auto=format&fit=crop"
+    image: "https://i.ibb.co/hFj6fvrf/Screenshot-20251211-170000.jpg"
   },
-  {
-    id: "scam-analysis",
-    title: "Security & Scam Analysis",
-    description: "A cybersecurity initiative involving the safe analysis of scam websites. Utilized device emulation and inspection tools to understand malicious behaviors while maintaining a secure testing environment.",
-    tags: ["Cybersecurity", "Analysis", "Sandboxing"],
-    category: "Security",
-    links: {},
-    image: "https://images.unsplash.com/photo-1563206767-5b1d9728c5c8?q=80&w=1000&auto=format&fit=crop"
-  }
+
 ];
 
 export const EXPERIENCE: Experience[] = [

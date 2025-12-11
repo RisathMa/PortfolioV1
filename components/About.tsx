@@ -44,7 +44,7 @@ const About: React.FC = () => {
                   Example: src="/my-photo.jpg" 
                 */}
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop" 
+                  src="https://i.ibb.co/p67pSpQG/581731373-808034715375321-5235741489036203174-n.jpg" 
                   alt={PERSONAL_INFO.name} 
                   className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500"
                 />
