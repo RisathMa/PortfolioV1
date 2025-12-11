@@ -18,7 +18,7 @@ export const PERSONAL_INFO = {
   name: "Risath Manvidu",
   role: "Software Engineer",
   tagline: "Engineering Digital Experiences. Solving Real-World Problems.",
-  email: "contact@risath.dev", // Placeholder
+  email: "Risath@companyrm.lk", 
   website: "https://www.companyrm.lk",
   about: `I am a self-driven, hands-on Software Engineer with a passion for building scalable, real-world systems. My expertise spans full-stack web development, mobile applications, and cloud infrastructure.
 
@@ -87,7 +87,7 @@ export const EXPERIENCE: Experience[] = [
   {
     role: "Software Engineer (Projects & Freelance)",
     company: "Self-Employed / Open Source",
-    period: "2022 - Present",
+    period: "2024 - Present",
     description: [
       "Architected full-stack web applications using React, Node.js, and Firebase, handling both frontend UI and backend logic.",
       "Diagnosed and fixed complex cross-platform issues, including mobile push notification failures and local build environment errors.",

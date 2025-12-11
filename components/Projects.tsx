@@ -63,14 +63,22 @@ const Projects: React.FC = () => {
                 className="group bg-slate-900 border border-slate-800 rounded-xl overflow-hidden hover:border-cyan-500/30 hover:shadow-2xl hover:shadow-cyan-500/10 flex flex-col h-full"
               >
                 {/* Project Image */}
-                <div className="h-48 overflow-hidden relative">
-                  <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-transparent transition-colors z-10"></div>
+                <div className="aspect-video w-full overflow-hidden relative bg-slate-950">
                   {project.image ? (
-                    <img 
-                      src={project.image} 
-                      alt={project.title} 
-                      className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-                    />
+                    <>
+                      {/* Blurred Background for Fill */}
+                      <div 
+                        className="absolute inset-0 bg-cover bg-center opacity-30 blur-xl scale-110 transition-transform duration-700 group-hover:scale-125"
+                        style={{ backgroundImage: `url(${project.image})` }}
+                      ></div>
+                      
+                      {/* Actual Image */}
+                      <img 
+                        src={project.image} 
+                        alt={project.title} 
+                        className="relative w-full h-full object-contain z-10 transition-transform duration-500 group-hover:scale-105"
+                      />
+                    </>
                   ) : (
                     <div className="w-full h-full bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center">
                       <Folder size={48} className="text-slate-700" />
