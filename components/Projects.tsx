@@ -76,7 +76,7 @@ const Projects: React.FC = () => {
                       <img 
                         src={project.image} 
                         alt={project.title} 
-                        className="relative w-full h-full object-contain z-10 transition-transform duration-500 group-hover:scale-105"
+                        className="relative w-full h-full object-cover object-top z-10 transition-transform duration-500 group-hover:scale-105"
                       />
                     </>
                   ) : (
