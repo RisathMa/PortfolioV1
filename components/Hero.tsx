@@ -79,7 +79,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 1, delay: 1 }}
             className="mt-16 flex gap-6 text-slate-500"
           >
-            <a href="https://github.com/RisathMa" target="_blank" rel="noreferrer" className="hover:text-cyan-400 transition-colors">
+            <a href="https://github.com/" target="_blank" rel="noreferrer" className="hover:text-cyan-400 transition-colors">
               <Github size={24} />
             </a>
             <a href="#" className="hover:text-cyan-400 transition-colors">
