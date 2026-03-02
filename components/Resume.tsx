@@ -27,7 +27,7 @@ const Resume: React.FC = () => {
                         <div className="flex flex-wrap gap-4 text-sm text-slate-600">
                             <span>{PERSONAL_INFO.email}</span>
                             <span>•</span>
-                            <span>github.com/RisathMa</span>
+                            <span>github.com/</span>
                         </div>
                     </div>
 
